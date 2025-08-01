@@ -18,6 +18,11 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    extend: {
+      backgroundImage: {
+        'plc': "url('/src/images/Group (2).png')",
+      }
     }
   },
   plugins: [],
